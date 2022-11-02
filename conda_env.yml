@@ -2,6 +2,7 @@ name: planetarycomputer
 channels:
   - conda-forge
 dependencies:
+  - python=3.10
   - pystac
   - pystac-client
   - planetary-computer
