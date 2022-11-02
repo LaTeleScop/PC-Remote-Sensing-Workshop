@@ -1,0 +1,15 @@
+name: planetarycomputer
+channels:
+  - conda-forge
+dependencies:
+  - pystac
+  - pystac-client
+  - planetary-computer
+  - rasterio
+  - geopandas
+  - matplotlib
+  - scikit-image
+  - scikit-learn
+  - folium
+  - leafmap
+  - rich
