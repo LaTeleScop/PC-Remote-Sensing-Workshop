@@ -1,27 +1,34 @@
-# Workshop: EO image processing with Python and Microsoft's Planetary Computer
+# Workshop: RS data processing with Python and Microsoft's Planetary Computer
 This notebook was initially made for the "Remote Sensing" module (EPF MDE, Montpellier, FR).  
 Open an issue if you have any code related question (with reproductible the code snippet and error traceback).
 
+## Startup
+Clone this repository using a shell in the Planetary Computer Jupyterlab interface.  
+You can connect your PC hub instance to VSCode [like this](https://planetarycomputer.microsoft.com/docs/overview/ui-vscode/).  
+
+
+**If you don't have a Planetary Computer account yet**  
+Ask it. 
+You can also create a local conda env using the provided YAML file. 
+```
+conda env create -f conda_env.yml
+```
+
+It should work without an account for some images, but I fear some data (16bit images) requires an API key.  
+
+
 ## Evaluation
-Before the second session, find another change to analyze with index (NDVI, NDWI, dNBR, NDSI) or
- use a more advanced workflow if you feel ready to do so (machine learning, time series).  
+Before the second session, find another change to analyze with index (dNBR, NDVI, NDWI, NDSI).  
 Explore other datasets like Landsat that allow you to go back earlier in time (see the catalog).  
 Create a notebook with commented functions for your pipeline + plots and maps to show off your results.  
 
 Some ideas:
 * wildfires
-* floods
 * deforestation
 * coastal erosion
+* floods
 * snow cover
 * ...
-
-## If you don't have a Planetary Computer Access
-You can create a local conda env using the provided YAML file.
-```
-conda env create -f conda_env.yml
-```
-It should work without an API key, but you'll need a lot of bandwidth.  
 
 # Ressources
 
