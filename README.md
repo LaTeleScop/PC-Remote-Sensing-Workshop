@@ -16,6 +16,13 @@ Some ideas:
 * snow cover
 * ...
 
+## If you don't have a Planetary Computer Access
+You can create a local conda env using the provided YAML file.
+```
+conda env create -f conda_env.yml
+```
+It should work without an API key, but you'll need a lot of bandwith.  
+
 # Ressources
 
 ## Planetary Computer
