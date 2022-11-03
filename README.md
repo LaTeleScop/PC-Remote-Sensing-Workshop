@@ -4,7 +4,7 @@ Open an issue if you have any code related question (with reproductible the code
 
 ## Startup
 Clone this repository using a shell in the Planetary Computer Jupyterlab interface.  
-You can connect your PC hub instance to VSCode [like this](https://planetarycomputer.microsoft.com/docs/overview/ui-vscode/).  
+You can connect your PC hub instance to VSCode [see the docs here](https://planetarycomputer.microsoft.com/docs/overview/ui-vscode/).  
 
 
 **If you don't have a Planetary Computer account yet**  
@@ -18,7 +18,7 @@ It should work without an account for some images, but I fear some data (16bit i
 
 
 ## Evaluation
-Before the second session, find another change to analyze with index (dNBR, NDVI, NDWI, NDSI).  
+Before the second session, find another area and change to analyze with index (dNBR, NDVI, NDWI, NDSI).  
 Explore other datasets like Landsat that allow you to go back earlier in time (see the catalog).  
 Create a notebook with commented functions for your pipeline + plots and maps to show off your results.  
 
